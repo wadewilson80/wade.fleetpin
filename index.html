@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wade Wilson — Product & Technology Manager</title>
+  <meta name="description" content="Interactive role-fit evidence map for Wade Wilson." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg">
+    <div class="container">
+      <header class="header">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">WW</div>
+          <div>
+            <h1 id="name">Wade Wilson</h1>
+            <p class="subtitle" id="targetRole">Product &amp; Technology Manager — Fleetpin</p>
+          </div>
+        </div>
+
+        <div class="actions">
+          <!-- Update these links in script.js -->
+          <a class="btn" id="btnCv" href="#" target="_blank" rel="noopener">Download CV</a>
+          <a class="btn ghost" id="btnLinkedIn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn ghost" id="btnEmail" href="#">Email</a>
+        </div>
+      </header>
+
+      <section class="hero">
+        <p class="pitch" id="pitch"></p>
+        <div class="metaRow">
+          <div class="chip" id="updatedChip"></div>
+          <div class="chip subtle" id="noteChip"></div>
+        </div>
+      </section>
+
+      <main class="main">
+        <section class="left">
+          <div class="sectionTitleRow">
+            <h2 class="sectionTitle">What you’re hiring for → proof</h2>
+            <div class="hint">Hover for the short version. Click for details.</div>
+          </div>
+
+          <div id="tiles" class="tiles" aria-label="Capability tiles"></div>
+
+          <section class="testimonials">
+            <h2 class="sectionTitle">What referees say</h2>
+            <div id="quotes" class="quotes"></div>
+            <p class="smallPrint" id="quoteNote"></p>
+          </section>
+        </section>
+
+        <aside class="right" aria-label="Details panel">
+          <div class="panel" id="panel">
+            <div class="panelHeader">
+              <div>
+                <h3 id="panelTitle">Select a tile</h3>
+                <p id="panelSub" class="panelSub">Details will appear here.</p>
+              </div>
+              <button class="iconBtn" id="closePanel" aria-label="Close panel" title="Close">✕</button>
+            </div>
+
+            <div class="panelBody">
+              <div class="panelBlock">
+                <div class="panelLabel">Evidence</div>
+                <ul id="panelBullets" class="bullets"></ul>
+              </div>
+
+              <div class="panelBlock" id="panelOutcomeBlock">
+                <div class="panelLabel">Outcomes</div>
+                <ul id="panelOutcomes" class="bullets"></ul>
+              </div>
+
+              <div class="panelBlock" id="panelQuoteBlock">
+                <div class="panelLabel">Referee snippet</div>
+                <blockquote id="panelQuote" class="quote"></blockquote>
+                <div id="panelQuoteBy" class="quoteBy"></div>
+              </div>
+
+              <div class="panelBlock" id="panelLinksBlock">
+                <div class="panelLabel">Links / artefacts</div>
+                <div id="panelLinks" class="links"></div>
+                <p class="tiny">Tip: keep artefacts sanitised (no client names / sensitive info).</p>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="footer">
+        <div class="footerLeft" id="footerLeft"></div>
+        <div class="footerRight">
+          <button class="linkBtn" id="printBtn" type="button">Print / Save PDF</button>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
