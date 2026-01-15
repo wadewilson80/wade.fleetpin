@@ -1,0 +1,121 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "tagline": "Professional Title",
+    "linkedIn": "https://linkedin.com/in/yourprofile",
+    "icon": "👤"
+  },
+  "role": {
+    "company": "Example Company Ltd",
+    "title": "Senior Product Manager",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+  },
+  "experience": [
+    {
+      "title": "Product Leadership",
+      "summary": "A proven track record of leading product teams and delivering results at scale.",
+      "bullets": [
+        "Led a team of 8 product managers across 3 product lines, delivering £15M ARR growth",
+        "Established product vision and roadmap aligned with company strategy",
+        "Introduced OKR framework that improved team delivery by 40%"
+      ],
+      "quote": {
+        "text": "One of the most strategic product leaders I've worked with. They have an exceptional ability to align teams around a shared vision.",
+        "author": "Jane Smith, VP of Product at Previous Company"
+      }
+    },
+    {
+      "title": "Stakeholder Management",
+      "summary": "The ability to build relationships and communicate effectively with senior leaders and clients.",
+      "bullets": [
+        "Regular presentations to C-suite executives on product performance",
+        "Built strong relationships with key enterprise clients worth £5M+",
+        "Facilitated cross-departmental alignment on major initiatives"
+      ],
+      "quote": {
+        "text": "Their ability to communicate complex ideas simply and bring stakeholders together is remarkable.",
+        "author": "John Davies, CEO at Previous Company"
+      }
+    },
+    {
+      "title": "Data-Driven Decision Making",
+      "summary": "Using analytics and insights to inform product strategy and drive measurable outcomes.",
+      "bullets": [
+        "Implemented analytics framework tracking 50+ KPIs across products",
+        "Reduced customer churn by 25% through data-informed feature prioritisation",
+        "Built dashboard reporting suite used by entire leadership team"
+      ],
+      "quote": {
+        "text": "They transformed how we use data to make product decisions. Their analytical rigour is exceptional.",
+        "author": "Sarah Thompson, Head of Analytics"
+      }
+    },
+    {
+      "title": "Agile Delivery",
+      "summary": "Experience transforming teams and processes to deliver faster with higher quality.",
+      "bullets": [
+        "Transitioned 3 teams from waterfall to agile methodology",
+        "Reduced time-to-market by 60% through improved sprint processes",
+        "Achieved consistent 95%+ sprint completion rate"
+      ],
+      "quote": {
+        "text": "The agile transformation they led was seamless and the results speak for themselves.",
+        "author": "Michael Chen, Engineering Director"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "title": "Strategic Planning",
+      "summary": "The ability to think long-term and create actionable roadmaps aligned with business goals.",
+      "bullets": [
+        "Developed 3-year product strategy adopted at board level",
+        "Created market analysis frameworks used across the organisation",
+        "Led competitive positioning that secured key enterprise wins"
+      ],
+      "quote": {
+        "text": "Their strategic thinking is outstanding. They see the bigger picture while never losing sight of execution.",
+        "author": "David Brown, Chief Strategy Officer"
+      }
+    },
+    {
+      "title": "Communication",
+      "summary": "Clear, compelling communication that resonates with technical and non-technical audiences.",
+      "bullets": [
+        "Regular speaker at industry conferences and internal all-hands",
+        "Authored product blog with 10,000+ monthly readers",
+        "Created stakeholder update process adopted company-wide"
+      ],
+      "quote": {
+        "text": "An exceptional communicator who can adapt their message for any audience, from engineers to executives.",
+        "author": "Lisa Taylor, Head of Communications"
+      }
+    },
+    {
+      "title": "Technical Understanding",
+      "summary": "A strong grasp of technology that enables effective collaboration with engineering teams.",
+      "bullets": [
+        "Strong grasp of cloud architecture and API design",
+        "Effective collaboration with engineering on technical trade-offs",
+        "Experience with SQL, Python for data analysis"
+      ],
+      "quote": {
+        "text": "They bridge the gap between product and engineering better than anyone I've worked with.",
+        "author": "Alex Kumar, CTO"
+      }
+    },
+    {
+      "title": "Team Development",
+      "summary": "A passion for mentoring and building high-performing, engaged teams.",
+      "bullets": [
+        "Mentored 5 junior PMs, 3 now in senior roles",
+        "Created PM competency framework and training programme",
+        "Maintained 95% team retention over 4 years"
+      ],
+      "quote": {
+        "text": "They invested heavily in my development and helped me become the PM I am today.",
+        "author": "Rachel Green, Senior Product Manager"
+      }
+    }
+  ]
+}
