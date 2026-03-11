@@ -1,9 +1,9 @@
 :root {
-    --navy: #1e3a5f;
-    --navy-light: #2c4a6e;
-    --grey-dark: #4a5568;
+    --navy: #0B1638;
+    --navy-light: #33486C;
+    --grey-dark: #63B7DE;
     --grey-medium: #718096;
-    --grey-light: #e2e8f0;
+    --grey-light: #DADCE1;
     --grey-lighter: #f7fafc;
     --white: #ffffff;
     --shadow: 0 2px 8px rgba(30, 58, 95, 0.1);
@@ -18,14 +18,14 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    background-color: var(--grey-lighter);
-    color: var(--grey-dark);
+    background-color: var(--grey-light);
+    color: var(--navy);
     line-height: 1.6;
 }
 
 .header {
     background-color: var(--navy);
-    color: var(--white);
+    color: var(--grey-light);
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow-lg);
 }
@@ -118,7 +118,7 @@ body {
 }
 
 .role-description {
-    color: var(--grey-dark);
+    color: var(--navy);
     font-size: 0.95rem;
     line-height: 1.6;
     max-width: 700px;
@@ -173,7 +173,7 @@ body {
 }
 
 .tile-summary {
-    color: var(--grey-dark);
+    color: var(--navy-light);
     font-size: 0.85rem;
     line-height: 1.5;
     flex-grow: 1;
@@ -259,7 +259,7 @@ body {
     background: none;
     border: none;
     font-size: 1.75rem;
-    color: var(--grey-medium);
+    color: var(--navy-light);
     cursor: pointer;
     line-height: 1;
     padding: 0.25rem;
@@ -286,7 +286,7 @@ body {
     padding: 0.5rem 0;
     padding-left: 1.5rem;
     position: relative;
-    color: var(--grey-dark);
+    color: var(--grey-light);
     font-size: 0.95rem;
 }
 
@@ -299,7 +299,7 @@ body {
 }
 
 .quote-box {
-    background-color: var(--grey-lighter);
+    background-color: var(--grey-light);
     border-left: 3px solid var(--navy);
     padding: 1rem 1.25rem;
     border-radius: 0 8px 8px 0;
@@ -307,7 +307,7 @@ body {
 
 .quote-text {
     font-style: italic;
-    color: var(--grey-dark);
+    color: var(--grey-light);
     font-size: 0.95rem;
     margin-bottom: 0.5rem;
     line-height: 1.5;
@@ -322,7 +322,7 @@ body {
 }
 
 .quote-author {
-    color: var(--grey-medium);
+    color: var(--grey-light);
     font-size: 0.85rem;
     font-weight: 500;
 }
