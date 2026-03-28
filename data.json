@@ -1,120 +1,115 @@
 {
   "profile": {
     "name": "Wade Wilson",
-    "tagline": "Innovative & collaborative Senior Leader, specialising in technology and data transformation",
+    "tagline": "Innovative & collaborative senior technology leader, specialist in connecting technical teams with core business operations",
     "linkedIn": "https://linkedin.com/in/wilsonwade",
     "icon": "👤"
   },
   "role": {
-    "company": "PGG Wrightson",
-    "title": "Group Engagement, Insights and Innovation Manager",
-    "description": "Thank you for considering my application to join the team at PGG. Having spent time with several of the team a few years ago I left with a strong, positive feeling about the company, values and what it's like to work there. This role feels like a great fit for me, and I've tried to highlight how I might specifically match what your looking for in this CV companion. I look forward to the opportunity to discuss the opportunity further."
+    "company": "Truescape",
+    "title": "Head of Digital and Technology",
+    "description": "Thank you for considering my application to join your team at Truescape. This role speaks to exactly what I love to do, and do well. I've put together this CV companion to identify how I can add value to Truescape right away."
   },
   "experience": [
     {
-      "title": "Digital Transformation",
-      "summary": "",
+      "title": "Technology Strategy and Pipeline Ownership",
+      "summary": "Defining what gets built, bought or retired - and in what order - to move the business forward",
       "bullets": [
-        "Led a team of 8 product managers across 3 product lines, delivering £15M ARR growth",
-        "Established product vision and roadmap aligned with company strategy",
-        "Introduced OKR framework that improved team delivery by 40%"
+        "Built and executed a multi-year technology roadmap at First Security, retiring legacy systems and integrating platforms across a 2,000-staff operation",
+        "Consolidated a fragmented technology stack into efficient, connected platforms delivering measurable operational improvements",
+        "Balanced a forward-looking pipeline with day-to-day platform stability and business continuity"
       ],
       "quote": {
-        "text": "One of the most strategic product leaders I've worked with. They have an exceptional ability to align teams around a shared vision.",
-        "author": "Jane Smith, VP of Product at Previous Company"
+        "text": "His business, managerial and technical insights are outstanding. The organisation has transformed under his leadership from using slow disparate systems to efficient and integrated platforms.",
+        "author": "Tony Vanderburg, Program Manager, Wilson Group"
       }
     },
     {
-      "title": "Data Analytics & Strategy",
-      "summary": "",
+      "title": "Project Delivery - from concept to reality",
+      "summary": "Taking initiatives from a problem statement through to an embedded, adopted solution",
       "bullets": [
-        "Regular presentations to C-suite executives on product performance",
-        "Built strong relationships with key enterprise clients worth £5M+",
-        "Facilitated cross-departmental alignment on major initiatives"
+        "Designed and delivered WelfareFIRST from internal solution to commercial product with 4,500+ contracted users",
+        "Led ground-up development of an award-winning iOS and Android mobile app unlocking a new B2C revenue stream",
+        "Delivered custom software solution credited as a key factor in retaining a major government contract by tender"
       ],
       "quote": {
-        "text": "Their ability to communicate complex ideas simply and bring stakeholders together is remarkable.",
-        "author": "John Davies, CEO at Previous Company"
+        "text": "Wade brings a unique ability: he can envision a future state combining existing off-the-shelf functionality from multiple solutions with integration, custom development, process and most importantly, people. Furthermore, he possesses the project and people management skills to deliver a finished product that drives real value and commercial success.",
+        "author": "Boyd Peacock, Founder and CEO GetHomeSafe (long-time software partner, white-labeled platform)"
       }
     },
     {
-      "title": "Data-Driven Decision Making",
-      "summary": "Using analytics and insights to inform product strategy and drive measurable outcomes.",
+      "title": "Leading data-driven decision making",
+      "summary": "Building the information capability that turns operational data into actionable insights for leaders and customers.",
       "bullets": [
-        "Implemented analytics framework tracking 50+ KPIs across products",
-        "Reduced customer churn by 25% through data-informed feature prioritisation",
-        "Built dashboard reporting suite used by entire leadership team"
+        "Built our organisation's first data warehouse, consolidating data from all operational and functional platforms into a single source",
+        "Delivered a full Power BI reporting suite covering advanced operational and financial performance analytics across a 2,000-staff business",
+        "Upskilled operational leaders through workshops, one-to-one coaching and gamified learning modules to build data literacy and confidence"
       ],
       "quote": {
-        "text": "They transformed how we use data to make product decisions. Their analytical rigour is exceptional.",
-        "author": "Sarah Thompson, Head of Analytics"
+        "text": "Under Wade’s leadership, the team helped democratise data across the organisation, making insights more accessible and enabling better, faster decision-making. They also delivered a true measure of service performance, giving us a clearer understanding of how we were performing for our customers and allowing us to proactively identify issues and adjust where needed.",
+        "author": "Jemima Briggs, as General Manager of Sales, FIRST Security"
       }
     },
     {
-      "title": "Agile Delivery",
-      "summary": "Experience transforming teams and processes to deliver faster with higher quality.",
+      "title": "Driving automation, innovation & efficiency",
+      "summary": "Removing cost, time and effort through smarter systems and process design, and practical implementation of new technology.",
       "bullets": [
-        "Transitioned 3 teams from waterfall to agile methodology",
-        "Reduced time-to-market by 60% through improved sprint processes",
-        "Achieved consistent 95%+ sprint completion rate"
+        "Replaced fully manual welfare monitoring process, eliminating $240k+ p/a in costs",
+        "Personally built a custom pricing web app using vibe-coding to a production standard, with around 85% reduction in development time",
+        "Delivered 30% improvement in rostering efficiency through modern scheduling platform with integrated payroll"
       ],
       "quote": {
-        "text": "The agile transformation they led was seamless and the results speak for themselves.",
-        "author": "Michael Chen, Engineering Director"
+        "text": ".",
+        "author": ""
       }
     }
   ],
-  "skills": [
+  "personal qualities": [
     {
-      "title": "Strategic Planning",
-      "summary": "The ability to think long-term and create actionable roadmaps aligned with business goals.",
+      "title": "Understanding how to connect technology to the wider business",
+      "summary": "I have the ability to translate technical concepts into commercial outcomes, and business needs into clear technical direction.",
       "bullets": [
         "Developed 3-year product strategy adopted at board level",
         "Created market analysis frameworks used across the organisation",
         "Led competitive positioning that secured key enterprise wins"
       ],
       "quote": {
-        "text": "Their strategic thinking is outstanding. They see the bigger picture while never losing sight of execution.",
-        "author": "David Brown, Chief Strategy Officer"
+        "text": ""He always held us to a high standard, but it was always about making sure the end result worked well in the real world and took account of business, commercial, people, change, and technical realities.",
+        "author": "Jonathan Clarke, Director, Sandfield Associates [Software Development Partner]"
       }
     },
     {
-      "title": "Communication",
-      "summary": "Clear, compelling communication that resonates with technical and non-technical audiences.",
+      "title": "Commercial and strategic leadership",
+      "summary": "I assess technology investment based on business value, with the discipline to prioritise what matters most.",
       "bullets": [
         "Regular speaker at industry conferences and internal all-hands",
         "Authored product blog with 10,000+ monthly readers",
         "Created stakeholder update process adopted company-wide"
       ],
       "quote": {
-        "text": "An exceptional communicator who can adapt their message for any audience, from engineers to executives.",
-        "author": "Lisa Taylor, Head of Communications"
+        "text": "Placeholder.",
+        "author": "Tim Covic, as Chief Executive Officer of FIRST Security"
       }
     },
     {
-      "title": "Technical Understanding",
-      "summary": "A strong grasp of technology that enables effective collaboration with engineering teams.",
-      "bullets": [
-        "Strong grasp of cloud architecture and API design",
-        "Effective collaboration with engineering on technical trade-offs",
-        "Experience with SQL, Python for data analysis"
-      ],
+      "title": "Brings clarity in complex environments",
+      "summary": "I provide structure and direction where ambiguity would otherwise stall delivery.",
       "quote": {
-        "text": "They bridge the gap between product and engineering better than anyone I've worked with.",
-        "author": "Alex Kumar, CTO"
+        "text": "Wade's got a very solid technical head on his shoulders combined with very good judgement, but what I appreciated most was his ability to consistently make a quality call. He doesn't need to overthink things and he makes practical, fast decisions and keeps the momentum going.",
+        "author": "Jonathan Clarke, Director, Sandfield Associates [Software Development Partner]"
       }
     },
     {
-      "title": "Team Development",
-      "summary": "A passion for mentoring and building high-performing, engaged teams.",
+      "title": "Able to communicate and influence at all levels",
+      "summary": "I pride myself on building respectful, trusting relationshps with colleagues in technical, operational and leadership roles.",
       "bullets": [
         "Mentored 5 junior PMs, 3 now in senior roles",
         "Created PM competency framework and training programme",
         "Maintained 95% team retention over 4 years"
       ],
       "quote": {
-        "text": "They invested heavily in my development and helped me become the PM I am today.",
-        "author": "Rachel Green, Senior Product Manager"
+        "text": "As part of his senior role, he has needed to communicate at all levels (Field staff to Group CEOs) to drive the company strategy, operational delivery to our clients, and be responsive to the ever-changing landscape working within our complex environment.",
+        "author": "Steven Sullivan, as Chief Operating Officer of FIRST Security"
       }
     }
   ]
