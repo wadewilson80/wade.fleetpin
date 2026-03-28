@@ -58,7 +58,10 @@ function setupModal() {
     const overlay = document.getElementById('modal-overlay');
     const closeBtn = document.getElementById('modal-close');
 
-    closeBtn.addEventListener('click', closeModal);
+    closeBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeModal();
+});
     overlay.addEventListener('click', (e) => {
         if (e.target === overlay) closeModal();
     });
