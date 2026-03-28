@@ -299,7 +299,7 @@ body {
 }
 
 .quote-box {
-    background-color: var(--grey-light);
+    background-color: var(--white);
     border-left: 3px solid var(--navy);
     padding: 1rem 1.25rem;
     border-radius: 0 8px 8px 0;
@@ -307,7 +307,7 @@ body {
 
 .quote-text {
     font-style: italic;
-    color: var(--grey-light);
+    color: var(--navy);
     font-size: 0.95rem;
     margin-bottom: 0.5rem;
     line-height: 1.5;
@@ -322,7 +322,7 @@ body {
 }
 
 .quote-author {
-    color: var(--grey-light);
+    color: var(--grey-dark);
     font-size: 0.85rem;
     font-weight: 500;
 }
