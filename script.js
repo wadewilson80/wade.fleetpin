@@ -82,15 +82,19 @@ function openModal(item, type) {
 
     title.textContent = item.title;
 
-    // Reset content
+    // Clear old content
     text.textContent = '';
     bullets.innerHTML = '';
+    quoteText.textContent = '';
+    quoteAuthor.textContent = '';
+
+    // Reset visibility every time
+    text.style.display = 'none';
+    bullets.style.display = 'block';
+    quoteBox.style.display = 'none';
 
     if (type === 'experience') {
-        text.style.display = 'none';
-        bullets.style.display = 'block';
-
-        if (item.bullets) {
+        if (item.bullets && item.bullets.length) {
             item.bullets.forEach(bullet => {
                 const li = document.createElement('li');
                 li.textContent = bullet;
@@ -109,8 +113,6 @@ function openModal(item, type) {
         quoteBox.style.display = 'block';
         quoteText.textContent = item.quote.text;
         quoteAuthor.textContent = item.quote.author || '';
-    } else {
-        quoteBox.style.display = 'none';
     }
 
     overlay.classList.add('active');
@@ -125,6 +127,10 @@ function closeModal() {
     document.getElementById('modal-bullets').innerHTML = '';
     document.getElementById('quote-text').textContent = '';
     document.getElementById('quote-author').textContent = '';
+
+    document.getElementById('modal-text').style.display = 'none';
+    document.getElementById('modal-bullets').style.display = 'block';
+    document.getElementById('quote-box').style.display = 'none';
 
     overlay.classList.remove('active');
     document.body.style.overflow = '';
