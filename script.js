@@ -34,7 +34,7 @@ function renderRole(role) {
     document.getElementById('role-description').textContent = role.description;
 }
 
-function renderTiles(containerId, items) {
+function renderTiles(containerId, items, type) {
     const container = document.getElementById(containerId);
     container.innerHTML = '';
 
@@ -49,7 +49,7 @@ function renderTiles(containerId, items) {
                 How do I help?
             </button>
         `;
-        tile.querySelector('.tile-trigger').addEventListener('click', () => openModal(item));
+        tile.querySelector('.tile-trigger').addEventListener('click', () => openModal(item, type));
         container.appendChild(tile);
     });
 }
@@ -71,9 +71,10 @@ function setupModal() {
     });
 }
 
-function openModal(item) {
+function openModal(item, type) {
     const overlay = document.getElementById('modal-overlay');
     const title = document.getElementById('modal-title');
+    const text = document.getElementById('modal-text');
     const bullets = document.getElementById('modal-bullets');
     const quoteBox = document.getElementById('quote-box');
     const quoteText = document.getElementById('quote-text');
@@ -81,17 +82,33 @@ function openModal(item) {
 
     title.textContent = item.title;
 
+    // Reset content
+    text.textContent = '';
     bullets.innerHTML = '';
-    item.bullets.forEach(bullet => {
-        const li = document.createElement('li');
-        li.textContent = bullet;
-        bullets.appendChild(li);
-    });
 
-    if (item.quote && item.quote.text) {
+    if (type === 'experience') {
+        text.style.display = 'none';
+        bullets.style.display = 'block';
+
+        if (item.bullets) {
+            item.bullets.forEach(bullet => {
+                const li = document.createElement('li');
+                li.textContent = bullet;
+                bullets.appendChild(li);
+            });
+        }
+    }
+
+    if (type === 'skills') {
+        bullets.style.display = 'none';
+        text.style.display = 'block';
+        text.textContent = item.summary || '';
+    }
+
+    if (item.quote && item.quote.text && item.quote.text.trim() !== '.') {
         quoteBox.style.display = 'block';
         quoteText.textContent = item.quote.text;
-        quoteAuthor.textContent = item.quote.author;
+        quoteAuthor.textContent = item.quote.author || '';
     } else {
         quoteBox.style.display = 'none';
     }
@@ -102,6 +119,13 @@ function openModal(item) {
 
 function closeModal() {
     const overlay = document.getElementById('modal-overlay');
+
+    document.getElementById('modal-title').textContent = '';
+    document.getElementById('modal-text').textContent = '';
+    document.getElementById('modal-bullets').innerHTML = '';
+    document.getElementById('quote-text').textContent = '';
+    document.getElementById('quote-author').textContent = '';
+
     overlay.classList.remove('active');
     document.body.style.overflow = '';
 }
